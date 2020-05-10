@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.blogArea {
+    border: solid 1px black;
+    background: rgb(243, 243, 243);
+    width: 500px;
+    height: 200px;
+    padding: 6px;
+    overflow: auto;
+    font-size: 14px;
+    outline: none;
+}
+
+.blogTitle {
+    border: solid 1px black;
+    background: rgb(243, 243, 243);
+    width: 500px;
+    height: 35px;
+    padding: 6px;
+    overflow: hidden;
+    font-size: 14px;
+    outline: none;
+}
+
+[contenteditable][placeholder]:empty:before {
+    content: attr(placeholder);
+    color: gray;
+}
+
+.container {
+    width: 50%;
+    margin-bottom: 7px;
+}
+
+.select-container {
+    margin-left: -15px;
+    padding: 8px;
+    border: 1px solid #aaa;
+    position: relative;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.select-container select {
+    width: 100%;
+    border: 0;
+    background: transparent;
+    font-size: 16px;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.select-container:after {
+    content: "keyboard_arrow_down";
+    font-family: "material icons";
+    font-size: 24px;
+    color: black;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.bArea {
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.buttonB {
+    border: 3px black;
+    border-radius: 1px;
+    background: #230f3d;
+    color: #dfa5f7;
+    outline: none;
+}

@@ -1,0 +1,53 @@
+body {
+    background-color: #230f3d;
+    font-family: "Lato", sans-serif !important;
+}
+
+#insides {
+    color: rgb(187, 155, 247);
+    padding: 2em;
+}
+
+#text {
+    text-indent: 60px;
+    font-family: "Lato", sans-serif !important; /* edit this */
+    font-size: 1.8em;
+}
+
+#text ul {
+    list-style-type: none;
+    padding: 40px;
+}
+
+#titletext {
+    white-space: nowrap;
+    font-weight: bold !important;
+    text-align: center;
+}
+
+.project {
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    background: #fff;
+    margin: 0 3em 1.5em 1.5em;
+    padding: 0.5em 0.5em;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project img {
+    float: none;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-left: 1em;
+}
+
+img {
+    float: right;
+    height: 28.1vh;
+    width: 80%;
+}
+
